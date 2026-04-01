@@ -82,7 +82,7 @@
 .des{
     display: inline-block;
     position: relative;
-    padding: 100px;
+    padding:100px;
 }
 .code{
         position: relative;
@@ -102,5 +102,88 @@
     color: black;
     opacity: 0.1;
     
- 
+}
+
+/* Skills Section Styles */
+.skill-section {
+    padding: 50px;
+    text-align: center;
+    background: linear-gradient( #f0f0f0, #e0e0e0); /* Soft light grey gradient */
+   
+}
+.section-title {
+    display: inline-block;
+    padding: 10px 30px;
+    border: 2px solid black;
+    margin-bottom: 70px;
+    letter-spacing: 2px;
+}
+
+.skill-category {
+    margin-bottom: 60px;
+}
+
+.category-title {
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 40px;
+    text-align: left;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+}
+
+.skill-grid {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+}
+
+.skill-item i {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.skill-item .flag-icon {
+    font-size: 60px;
+    line-height: 1;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.skill-item span {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #555;
+    text-align: center;
+    line-height: 1.4;
+}
+.Contact{
+     position: relative;
+    height: 100vh;
+    background: url("back.png") no-repeat center;
+    background-size: cover;
+    padding: 50px;
+    text-align: center;
+}
+.con{
+       display: inline-block;
+    padding: 10px 30px;
+    border: 2px solid black;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
 }
