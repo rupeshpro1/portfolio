@@ -3,10 +3,34 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+.top {
+    background-color: black;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.top a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+.top a:hover {
+    color: #888;
+}
 .a {
     background-color: black;
     color: white;
-    height: 50px;
+
 
 }
 
@@ -75,7 +99,7 @@
 }
 .low2{
     position: relative;
-    height: 100vh;
+    height: 110vh;
     background: url("back.png") no-repeat center;
     background-size: cover;
 }
@@ -107,8 +131,10 @@
 /* Skills Section Styles */
 .skill-section {
     padding: 50px;
+    height: 105vh;
     text-align: center;
-    background: linear-gradient( #f0f0f0, #e0e0e0); /* Soft light grey gradient */
+    background: url("back.png") no-repeat center;
+    background-size: cover;
    
 }
 .section-title {
@@ -174,7 +200,7 @@
 }
 .Contact{
      position: relative;
-    height: 150vh;
+    height: 105vh;
     background: url("back.png") no-repeat center;
     background-size: cover;
     padding: 50px;
@@ -199,16 +225,17 @@
     height: 150px;
 
 }
-.confield{
-    
+.bktoto{
+    background-color: #161616;
+    text-align: center;
 }
 .conicon a
 {
     align-items: center;
     width: 45px;
     height: 45px;
-    background-color: #dcdcdc; /* light grey resembling the screenshot */
-    color: black;
+ /* light grey resembling the screenshot */
+    color: white;
     font-size: 20px;
     border-radius: 4px; /* optional slight rounding */
     transition: background-color 0.3s, transform 0.2s;
