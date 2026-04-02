@@ -174,16 +174,42 @@
 }
 .Contact{
      position: relative;
-    height: 100vh;
+    height: 150vh;
     background: url("back.png") no-repeat center;
     background-size: cover;
     padding: 50px;
     text-align: center;
 }
 .con{
-       display: inline-block;
+    display: inline-block;
     padding: 10px 30px;
     border: 2px solid black;
     margin-bottom: 50px;
     letter-spacing: 2px;
+}
+.confield{
+    padding-top:30px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    width: 500px;
+    margin-top: 40px;
+    margin-left: 35%;
+}
+.msg{
+    height: 150px;
+
+}
+.confield{
+    
+}
+.conicon a
+{
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    background-color: #dcdcdc; /* light grey resembling the screenshot */
+    color: black;
+    font-size: 20px;
+    border-radius: 4px; /* optional slight rounding */
+    transition: background-color 0.3s, transform 0.2s;
 }
